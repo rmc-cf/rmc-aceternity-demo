@@ -3,6 +3,7 @@ import DPin from "@/components/custom/3DPin";
 import RmcBackgroundLines from "@/components/custom/BackgroundLines";
 import { Banner } from "@/components/custom/Banner";
 import RmcGrid from "@/components/custom/RmcGrid";
+import TechnologyList from "@/components/custom/TechnologyList";
 export default function Home() {
   const Skeleton = () => (
     <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div>
@@ -52,6 +53,7 @@ export default function Home() {
       {/* <DPin/> */}
       <Banner title={'RMC Spaces'} subTitle={'Welcome to RMC Spaces'}/>
       {/* <RmcBackgroundLines title="It's show time" subTitle="Don't close your eyes"/> */}
+      <TechnologyList/>
       <RmcGrid items={items}/>
     </div>
   );
