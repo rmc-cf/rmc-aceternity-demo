@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file://E%3A/code/next/rmc-aceternity-demo/app/blog/%5Bslug%5D/page.tsx"],"sourcesContent":["import { IBlog } from \"@/types/blog\";\r\nimport { useRouter } from \"next/router\";\r\n\r\nconst BlogDetail = ({ title, content }: IBlog) => {\r\n      const router = useRouter();\r\n      const { slug } = router.query;\r\n    \r\n      // 如果页面正在加载（首次访问，静态生成）\r\n      if (router.isFallback) {\r\n        return <div>Loading...</div>;\r\n      }\r\n    \r\n      return (\r\n        <div>\r\n          <h1>{slug}</h1>\r\n        </div>\r\n      );\r\n    };\r\n    export default BlogDetail;"],"names":[],"mappings":";;;;AACA;;;AAEA,MAAM,aAAa,CAAC,EAAE,KAAK,EAAE,OAAO,EAAS;IACvC,MAAM,SAAS,CAAA,GAAA,8HAAA,CAAA,YAAS,AAAD;IACvB,MAAM,EAAE,IAAI,EAAE,GAAG,OAAO,KAAK;IAE7B,sBAAsB;IACtB,IAAI,OAAO,UAAU,EAAE;QACrB,qBAAO,8OAAC;sBAAI;;;;;;IACd;IAEA,qBACE,8OAAC;kBACC,cAAA,8OAAC;sBAAI;;;;;;;;;;;AAGX;uCACe"}},
+    {"offset": {"line": 66, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 77, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 77, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

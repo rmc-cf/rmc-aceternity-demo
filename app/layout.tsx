@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { RMCHeader } from "@/components/custom/RMCHeader";
+import { IType } from "@/types/menu";
 
 
 export const metadata: Metadata = {
@@ -17,6 +19,7 @@ export default function RootLayout({
       <body
         className={` antialiased`}
       >
+        <RMCHeader menuList={[{name:'Blog',url:'/blog',children:[],type:IType.DATA},{name:'Peace of room',url:'/room',isTop:true}]}/>
         {children}
       </body>
     </html>

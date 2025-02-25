@@ -282,8 +282,14 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$custom$2f$Banner$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/custom/Banner.tsx [app-rsc] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/components/custom/blog/BlogLayout'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$custom$2f$RmcGrid$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/custom/RmcGrid.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$custom$2f$TechnologyList$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/custom/TechnologyList.tsx [app-rsc] (ecmascript)");
+;
 ;
 ;
 ;
@@ -293,7 +299,7 @@ function Home() {
             className: "flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"
         }, void 0, false, {
             fileName: "[project]/app/page.tsx",
-            lineNumber: 9,
+            lineNumber: 10,
             columnNumber: 5
         }, this);
     const items = [
@@ -302,7 +308,7 @@ function Home() {
             description: "Explore the birth of groundbreaking ideas and inventions.",
             header: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 15,
+                lineNumber: 16,
                 columnNumber: 15
             }, this)
         },
@@ -311,7 +317,7 @@ function Home() {
             description: "Dive into the transformative power of technology.",
             header: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 15
             }, this)
         },
@@ -320,7 +326,7 @@ function Home() {
             description: "Discover the beauty of thoughtful and functional design.",
             header: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 25,
+                lineNumber: 26,
                 columnNumber: 15
             }, this)
         },
@@ -329,7 +335,7 @@ function Home() {
             description: "Understand the impact of effective communication in our lives.",
             header: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 31,
+                lineNumber: 32,
                 columnNumber: 15
             }, this)
         },
@@ -338,7 +344,7 @@ function Home() {
             description: "Join the quest for understanding and enlightenment.",
             header: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 36,
+                lineNumber: 37,
                 columnNumber: 15
             }, this)
         },
@@ -347,7 +353,7 @@ function Home() {
             description: "Experience the thrill of bringing ideas to life.",
             header: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 41,
+                lineNumber: 42,
                 columnNumber: 15
             }, this)
         },
@@ -356,7 +362,7 @@ function Home() {
             description: "Embark on exciting journeys and thrilling discoveries.",
             header: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Skeleton, {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 15
             }, this)
         }
@@ -369,25 +375,30 @@ function Home() {
                 subTitle: 'Welcome to RMC Spaces'
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 54,
+                lineNumber: 55,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$custom$2f$TechnologyList$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 56,
+                lineNumber: 57,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$custom$2f$RmcGrid$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 items: items
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 57,
+                lineNumber: 58,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(RMCBlogLayout, {}, void 0, false, {
+                fileName: "[project]/app/page.tsx",
+                lineNumber: 59,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.tsx",
-        lineNumber: 51,
+        lineNumber: 52,
         columnNumber: 5
     }, this);
 }

@@ -2,6 +2,7 @@ import CardEffect from "@/components/custom/3DCardEffect";
 import DPin from "@/components/custom/3DPin";
 import RmcBackgroundLines from "@/components/custom/BackgroundLines";
 import { Banner } from "@/components/custom/Banner";
+import { RMCBlogLayout } from "@/components/custom/blog/RMCBlogLayout";
 import RmcGrid from "@/components/custom/RmcGrid";
 import TechnologyList from "@/components/custom/TechnologyList";
 export default function Home() {
@@ -55,6 +56,7 @@ export default function Home() {
       {/* <RmcBackgroundLines title="It's show time" subTitle="Don't close your eyes"/> */}
       <TechnologyList/>
       <RmcGrid items={items}/>
+      <RMCBlogLayout/>
     </div>
   );
 }
