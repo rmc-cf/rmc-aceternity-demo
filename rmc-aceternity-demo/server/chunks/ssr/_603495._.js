@@ -93,8 +93,8 @@ function RootLayout({ children }) {
                     ]
                 }, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 22,
-                    columnNumber: 9
+                    lineNumber: 23,
+                    columnNumber: 11
                 }, this),
                 children
             ]

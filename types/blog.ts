@@ -4,4 +4,5 @@ export interface IBlog {
       author_id:string;
       title: string;
       content: string;
+      image?:string
 };

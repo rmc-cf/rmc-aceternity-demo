@@ -1,6 +1,3 @@
-import CardEffect from "@/components/custom/3DCardEffect";
-import DPin from "@/components/custom/3DPin";
-import RmcBackgroundLines from "@/components/custom/BackgroundLines";
 import { Banner } from "@/components/custom/Banner";
 import { RMCBlogLayout } from "@/components/custom/blog/RMCBlogLayout";
 import RmcGrid from "@/components/custom/RmcGrid";
@@ -47,16 +44,15 @@ export default function Home() {
       header: <Skeleton />,
     },
   ];
-  
+
+ 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen gap-8">
       {/* <CardEffect /> */}
       {/* <DPin/> */}
-      <Banner title={'RMC Spaces'} subTitle={'Welcome to RMC Spaces'}/>
+      <Banner title={'RMC Spaces'} subTitle={'Welcome to RMC Spaces'} />
       {/* <RmcBackgroundLines title="It's show time" subTitle="Don't close your eyes"/> */}
-      <TechnologyList/>
-      <RmcGrid items={items}/>
-      <RMCBlogLayout/>
+      <TechnologyList />
     </div>
   );
 }

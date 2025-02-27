@@ -19,8 +19,9 @@ export default function RootLayout({
       <body
         className={` antialiased`}
       >
-        <RMCHeader menuList={[{name:'Blog',url:'/blog',children:[],type:IType.DATA},{name:'Peace of room',url:'/room',isTop:true}]}/>
-        {children}
+
+          <RMCHeader menuList={[{ name: 'Blog', url: '/blog', children: [], type: IType.DATA }, { name: 'Peace of room', url: '/room', isTop: true }]} />
+          {children}
       </body>
     </html>
   );

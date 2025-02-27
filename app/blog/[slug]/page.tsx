@@ -1,3 +1,4 @@
+import { RMCBlogLayout } from "@/components/custom/blog/RMCBlogLayout"
 import { IBlog } from "@/types/blog"
 
 // Return a list of `params` to populate the [slug] dynamic segment
@@ -7,19 +8,12 @@ import { IBlog } from "@/types/blog"
 export default async function Page({
   params,
 }: {
-  params: Promise<{ slug: string }>
+  params:any
 }) {
   const { slug } = await params
   return (
     <>
-    {slug}</>
+     <RMCBlogLayout slug={slug}/> 
+    </>
   )
 }
-export async function generateStaticParams() {
-  const blogs = await fetch('http://spaces.kbdev.kooboo.cn/api/blog/').then((res) => res.json())
- 
-  return blogs.map((blog:IBlog) => ({
-    slug: blog._id,
-  }))
-}
- 

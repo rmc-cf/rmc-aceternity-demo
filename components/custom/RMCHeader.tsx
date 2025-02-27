@@ -6,8 +6,8 @@ import { IMenuList, IType } from "@/types/menu";
 
 export function RMCHeader({ menuList }: { menuList: IMenuList }) {
       return (
-            <div className="relative w-full flex items-center justify-center">
-                  <Navbar className="top-2" data={menuList} />
+            <div className="relative w-full flex items-center justify-center ">
+                  <Navbar className="top-2 " data={menuList} />
             </div>
       );
 }
