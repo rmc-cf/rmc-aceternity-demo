@@ -9,7 +9,7 @@ function RmcGrid() {
     useEffect(() => {
       const getAllBlogs = async () => {
         try {
-          const response = await fetch(`http://spaces.mycode.kooboo.cn/api/blog/`);
+          const response = await fetch(`https://spaces.mycode.kooboo.cn/api/blog/`);
           if (!response.ok) {
             throw new Error("Failed to fetch blogs");
           }

@@ -10,7 +10,7 @@ export function RMCBlogLayout({ slug }: { slug: string }) {
   useEffect(() => {
     const getSingleBlog = async () => {
       try {
-        const response = await fetch(`http://spaces.mycode.kooboo.cn/api/blog/${slug}`);
+        const response = await fetch(`https://spaces.mycode.kooboo.cn/api/blog/${slug}`);
         if (!response.ok) {
           throw new Error("Failed to fetch blogs");
         }
